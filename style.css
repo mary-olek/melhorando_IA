@@ -1,0 +1,56 @@
+
+
+:root{
+    --cor-fundo:#dab4fde0 ;
+    --cor-principal: #dab4fde0 ;
+    --cor-secundaria: #bf4feb; 
+    --cor-destaque: #9713a8;
+    --cor-texto: #000000;
+ 
+
+}
+ 
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15%;
+    border-width: 10px; 
+    border-style: solid; 
+    border-color: var(--cor-destaque);
+     
+    
+h1{
+    color: var(--cor-destaque);
+  
+
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.4s;
+    
+   
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
