@@ -23,11 +23,18 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Um lugar tranquilo, cheio de flores, passáros e muita luz natural.",
-                afirmacao: "você ama a tranquilidade e a paz que a natureza te traz, ama essa conexão."
+                afirmacao:[ 
+                    "você ama a tranquilidade e a paz que a natureza te traz, ama essa conexão.",
+
+                    ""
+                ]
             },
             {
                 texto: "Um lugar bem alto, longe da cidade, com uma vista privilegiada do céu.",
-                afirmacao: "você prefere a paz de sua própria companhia, ver o cèu durante a noite faz com que você se sinta viva."
+                afirmacao:[
+                     "você prefere a paz de sua própria companhia, ver o cèu durante a noite faz com que você se sinta viva.",
+                ""
+                ]
             }
         ]
     },
@@ -36,11 +43,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Saber o futuro e poder mudá-lo, antes que ocorra.",
-                afirmacao: "Você gosta de ter o controle da situação, conseguir controlar o que vai vir a acontecer é uma boa forma de evitar problemas,"
+                afirmacao: [
+                    "Você gosta de ter o controle da situação, conseguir controlar o que vai vir a acontecer é uma boa forma de evitar problemas,",
+
+                ]
             },
             {
                 texto: "Poder voltar ao passado.",
-                afirmacao: "Você se prende a sentimentos que já passaram, gosta de aproveitar os momentos pois sabe o valor deles depois que tudo passa."
+                afirmacao:[
+                     "Você se prende a sentimentos que já passaram, gosta de aproveitar os momentos pois sabe o valor deles depois que tudo passa.",
+                     ""
+                ]
             }
         ]
     },
@@ -49,11 +62,18 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Mandariam todos para a guerra, nosso reino em primeiro lugar!",
-                afirmacao: "você ama arriscar, mesmo que tudo possa dar errado. "
+                afirmacao:[
+                     "você ama arriscar, mesmo que tudo possa dar errado. ",
+                ]
             },
             {
                 texto: "Buscaria uma opção segura, sem colocar todos em risco.",
-                afirmacao: "Você é pé no chão, se preocupa com o que pode acontecer de ruim."
+                afirmacao:[
+                     "Você é pé no chão, se preocupa com o que pode acontecer de ruim.",
+                ""
+                ]
+
+            
             }
         ]
     },
@@ -62,11 +82,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Longo, com gliter e da sua cor favorita.",
-                afirmacao: "Você ama brilar, e todos amam isso em você!!"
+                afirmacao:[
+                     "Você ama brilar, e todos amam isso em você!!",
+                ]
             },
             {
                 texto: "Longo, rodado e da sua cor favorita.",
-                afirmacao: "Todos amam seu jeitinho único de ser!!"
+                afirmacao:[ 
+                    "Todos amam seu jeitinho único de ser!!",
+                ""
+                ]
             }
         ]
     },
@@ -75,11 +100,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Dourada, com muitas pedras brilhantes.",
-                afirmacao: "Você é feliz!"
+                afirmacao:[ "Você é feliz!",
+                ""
+                ]
             },
             {
                 texto: "Prata, toda cravejada.",
-                afirmacao: "Você é feliz!"
+                afirmacao:[
+
+                 "Você é feliz!",
+                 ""
+                ]
             }
         ]
     
