@@ -10,11 +10,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Roxo",
-                afirmacao: "Você é doce e sonhadora,"
+                afirmacao: [
+                    "Você é doce e sonhadora",
+                    ""
+                ]
             },
             {
                 texto: "Azul",
-                afirmacao: "Você é alegre e sorridente,"
+                afirmacao:[ "Você é alegre e sorridente,",
+                    ""
+                ]
             }
         ]
     },
@@ -45,7 +50,7 @@ const perguntas = [
                 texto: "Saber o futuro e poder mudá-lo, antes que ocorra.",
                 afirmacao: [
                     "Você gosta de ter o controle da situação, conseguir controlar o que vai vir a acontecer é uma boa forma de evitar problemas,",
-
+                         ""
                 ]
             },
             {
@@ -64,6 +69,7 @@ const perguntas = [
                 texto: "Mandariam todos para a guerra, nosso reino em primeiro lugar!",
                 afirmacao:[
                      "você ama arriscar, mesmo que tudo possa dar errado. ",
+                     ""
                 ]
             },
             {
@@ -84,6 +90,7 @@ const perguntas = [
                 texto: "Longo, com gliter e da sua cor favorita.",
                 afirmacao:[
                      "Você ama brilar, e todos amam isso em você!!",
+                     ""
                 ]
             },
             {
